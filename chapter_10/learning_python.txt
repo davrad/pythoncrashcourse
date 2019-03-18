@@ -1,0 +1,4 @@
+In Python you can write functions without '{}'.
+In Python you can use functions as first class citizens.
+In Python you can write code without alot of boilerplatecode.
+In Python you can import modules and define yourself ones easily.
