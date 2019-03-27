@@ -5,8 +5,13 @@
     <title>Title</title>
 </head>
 <body>
-    <p>
-        Pizza!
-    </p>
+    {% extends 'pizzas/base.html' %}
+
+    {% block content %}
+        <p>
+            It's pizza time!:
+            <a href="{% url 'pizzas:pizza' %}"> Pizzas!</a>
+        </p>
+    {% endblock content %}
 </body>
 </html>
